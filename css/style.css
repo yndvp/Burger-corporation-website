@@ -72,7 +72,7 @@ img {
   margin: 20px 0;
 }
 .showcase .grid {
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 55% auto;
   gap: 30px;
   overflow: visible;
 }
@@ -81,6 +81,7 @@ img {
   top: 60px;
   height: 350px;
   width: 400px;
+  padding: 40px;
   z-index: 100;
   justify-self: flex-end;
 }
