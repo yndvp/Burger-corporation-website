@@ -6,7 +6,6 @@
   --dark-color: #002240;
   --light-color: #f4f4f4;
 }
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -37,7 +36,7 @@ img {
   width: 100%;
 }
 
-/* Header */
+/* Navbar */
 .navbar {
   background-color: var(--primary-color);
   color: #fff;
@@ -99,7 +98,6 @@ img {
 .showcase-form input:focus {
   outline: none;
 }
-.showcase::before,
 .showcase::after {
   content: "";
   position: absolute;
